@@ -1,0 +1,82 @@
+/*body{
+	/*background-color: red;*/
+
+/*Unidades de medidas: 
+	font-size:
+		-px (absoluta)
+		-em (relativa)
+		font-size: 
+
+font-weight: 
+	-normal
+	-border
+
+font-style: 
+	-italic
+	-normal
+	-oblique
+
+text-align: 
+	-left
+	-center
+	-right 
+	-justify
+
+text-transform: 
+	-none
+	-uppercase
+	-lowercase
+	-capitalize
+
+text-decoration: 
+	-underline --subrayado
+	-none --sin 
+	-overline  --linea por encima
+	-line-through --tacha
+
+letter-spacing --separa las letras entre si
+word-spacing --separa las palabras entre si
+
+line-height: --sirve para separar lineas entre parrafos (por defecto 6px + px letras)*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+/*font-family: 'Raleway', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*font-family: 'Open Sans', sans-serif;*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	/*list-style: none;*/
+	/*list-style: upper-roman;
+	  list-style: upper-alpha;
+	  list-style: upper-latin;
+	  list-style: url(.../images/ser1.png);*/
+	  list-style: none;
+
+}
+
+.contenedor-inicial{
+	/*para manejar fondos las propiedades son:
+	background-color:#E4F009;*/
+	height: 900px;
+	background-image: url(../images/indexbanner-bg3.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	/*repeat | no-repeat | repeat-x | repeat-y*/
+	background-attachment: scroll; /*fixed*/
+
+	/*todo se puede abreviar en una sola linea
+	background:url(../images/indexbanner-bg3.jpg) no-repeat center top fixed;*/
+}
+
+.servicios-destacados article{
+	text-align: center;
+}
